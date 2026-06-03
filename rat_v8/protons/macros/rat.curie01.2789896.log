@@ -1,0 +1,580 @@
+[31mThis is SNO+ RAT 8.1.0 (ff691a585d80e2301909d257dc8f9d12ab03e5a7)[m
+Hostname detected: curie01.a.incd.pt
+Hardware detected: x86_64
+Status messages enabled: info detail 
+Hostname: curie01.a.incd.pt PID: 2789896
+[34;1mSeeding random number generator: [m-132714995
+DB::Constructor:: Setting PgSQL server to default...[m
+[34;1mLoading default database tables...[m
+DB::LoadAll: Loading /rat/data/AFTERPULSING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/AMELLIE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/AV_PIPES.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/AV_TILES.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/BADC.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/BLINDNESS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/BUCKET.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/Burst.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CAL_SOURCE_RUN_LEVEL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CGTSync24.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CGTSync24PreviousRuns.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CHERENKOV_SAMPLING_COEFFICIENTS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CHERENKOV_SAMPLING_PDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CHERENKOV_SOURCE_PDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CHROMA.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_0NUEXT_COSTHETA.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_0NUEXT_COSTHETA_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHAN_IBD_FISHER.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHA_BETA_LIKELIHOOD.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHA_BETA_LIKELIHOOD_Te_Diol_DDA.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHA_SEEDED.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHA_UNSEEDED.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BERKELEY_AB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BERKELEY_FB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BIPO_CUMULTIMERESID_Te_Diol.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BIPO_CUMULTIMERESID_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BIPO_LIKELIHOODDIFF_Te_Diol.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BIPO_LIKELIHOODDIFF_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_HIGHNECK.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_IBD.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ITR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_NAIVE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_NAIVE_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_OFFSET10.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_OFFSET10_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_NEAR_AV_ANGULAR_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_QPDT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_SKYSHINE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_TIMECENTROID.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_XSite.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLOCK_RECONSTRUCTION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CMOSSync16.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CMOSSync16PreviousRuns.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONCENTRATOR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_OPTICAL_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_PROMPT_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_REFL_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_REFL_PARAMETERS_2.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_REFL_PARAMETERS_3.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CRATE_GAIN_MONITOR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CSS_CUTS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CSS_CUT_VALUES.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CSS_RESULT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CSS_SELECTION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DAQ.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DAQ_RUN_LEVEL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DATACLEANING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DETECTOR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DINUCLEON_DECAY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DQCHECKS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DQLL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DROPOUT_EVALUATOR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/Decay0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/Decay0Backg.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DoubleBeta.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ECA_generation.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ECApattern.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/EFFECTIVE_VELOCITY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/EFFECTIVE_VELOCITY_TeDiol_bismsb_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/EFFECTIVE_VELOCITY_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ELEMENTS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ELLIE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ESCOMBO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ESCrossSection.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D_MultiPDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D_Partial_MultiPDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D_Te_Diol_bisMSB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FECDTAG.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_DIR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_DIRECTION_2DPDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_DRIVE_CORRECTION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_FUNCTIONAL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_FUNCTIONAL_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_LOOKUP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_LOOKUP_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_PARTIAL_RHOZ.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_PROMPT_HITS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_PROMPT_LOOKUP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_RSP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_RTHETA_FUNCTIONAL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_RTHETA_FUNCTIONAL_Te_Diol_bisMSB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_FAST_Z.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_MULTIPATH.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_MULTIPATH_ANGLE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_NEAR_AV_ANGULAR_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_PARTIAL_ENERGY_SCALING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_PEnergy.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_POISSION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_POSITION_ANN.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_POSITION_ANN_Te_Diol_DDA_bisMSB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_POSITION_ANN_Te_Diol_bisMSB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_QUAD.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_SIMPLE_ENERGY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_mCP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FLUX.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/Flasher.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GEO_LOCATIONS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GREY_DISC_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GREY_DISC_PARAMETERS_BLACK.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GREY_DISC_PARAMETERS_V2.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GV1D.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/HITCLEANING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/IBD.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/IO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/InputSpectrum.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/LASERBALL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/LEDGeneric.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MATERIALS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MATERIALS_TeDiol_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MATERIALS_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MC.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MISSED_COUNT_BURST.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MUON.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MUON_FIT_WATER.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MissedCounts.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NATIVE_GEO_DIMENSIONS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NHITS_CUT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NOISE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NOISE_RUN_INTEGRATED.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NOISE_RUN_LEVEL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NTUPLE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NUCLEON_DECAY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_TeDiol_0p5_bismsb_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_TeDiol_0p5_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_TeDiol_1p5_labppo_6p0_bismsb_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_TeDiol_2p5_labppo_6p0_bismsb_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_lab.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_0p25_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_0p5.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_0p5_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_1p0_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_1p1.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_2p0_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_2p2.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_2p2_bismsb.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_2p2_bismsb_2p2.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_6p0_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_bismsb.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OSCILLATIONS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PANELINFO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PCAGF_0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PCATW_0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PCA_GENERATION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PDST_0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMTBASE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMTCalibration.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMTTRANSIT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMT_DQXX.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMT_OPTICAL_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMT_VARIATION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/POINT3D_SHIFTS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/POSITRONIUM.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PROBABILITY_PE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PingCrates.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/QPartialEnergy.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/QUENCHING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/RADIAL_PDFS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/REACTORS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/REACTORS_STATUS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/RISETIME.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/RUN.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ReconCalibratorRSP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ReconCalibratorRTF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ReconCorrector.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SELECTOR_ISOTROPY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SINGLEPMTINFO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SMELLIE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SOLAR_MC.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SOLID.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SURFACES.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SolarSpectra.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/TELLIE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/TSLP_0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/TriggerEfficiency.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/UFO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/WAVEGUIDE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/nSPECTRUM.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/pes_spectrum.ratdb ... Success!
+DB::LoadAll: Loaded 197 tables
+[34;1mInitializing Processor block...[m
+[34;1mInitializing run manager...[m
+
+*************************************************************
+ Geant4 version Name: geant4-10-00-patch-04    (6-March-2015)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+Appending RAT extra units to the units table...
+Initializing Gsim...
+[37;1mGeoutil::UpdateAVOffsetFromDB : AV_OFFSET_RUNTIME[].position field does not exist[m
+[33;1mGeoutil::UpdateAVOffsetFromDB : Neither AV_OFFSET_RUNTIME nor GEO[av] position - default to 0 (no shift)[m
+[32;1mRAT::GeoUtil::CheckPartialSplitAndUpdate : Nothing partial split update needed.[m
+ESCrossSec: Table ESXS[pnue_tot_nuebar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_dif_nuebar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_tot_nuebar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_dif_nuebar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_tot_numubar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_dif_numubar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_tot_numubar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_dif_numubar] does not exist or is incomplete. Defaulting to analytic calculation
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Initializing the visualization manager
+[34;1mInitializing event producers...[m
+[34;1mInitializing user interface...[m
+[34;1mRunning macro...[m
+DB: Setting DETECTOR[] geo_file to "geo\/snoplusnative.geo"
+
+DB: Setting GEO[inner_av] material to "labppo_2p2_bismsb_2p2_scintillator"
+
+Detector::Construct: Constructing detector materials.
+Detector::Construct: Loading detector geometry from geo/snoplusnative.geo
+Detector::Construct: Loading pmt info from pmt/PMTINFO_sept2018.ratdb
+Detector::Construct: Constructing geometry.
+DiscOpticalModel: Using new grey disc reflections (version 2)
+DiscOpticalModel: Using new grey disc reflections (version 2)
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+
+Neutron HP Thermal Scattering Data: Following material-element pairs and/or elements are registered.
+Element TS_H_of_Water,  internal thermal scattering id 0
+
+
+Neutron HP Thermal Scattering: Following material-element pairs or elements are registered.
+Element TS_H_of_Water,  internal thermal scattering id 0
+
+
+Neutron HP Thermal Scattering Data: Following material-element pairs and/or elements are registered.
+Element TS_H_of_Water,  internal thermal scattering id 0
+
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/8_17_Oxygen
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/8_17_Oxygen
+GLG4Scint: No reemission spectrum for lab_scintillator for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_2p2_bismsb_2p2_scintillator for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_2p2_bismsb_scintillator for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_6p0_TeDiol_1p5_bismsb_dda_scintillator_directors_review for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_6p0_TeDiol_2p5_bismsb_dda_scintillator_directors_review for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_bismsb_scintillator for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for te_diol_dda_0p5_labppo_scintillator_Jan2018 for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for te_diol_dda_0p5_labppo_scintillator_bisMSB_Jan2018 for default scint process, setting equal to primary scintillation spectrum
+PhysicsList::AddAttenuationAndCerenkov Omitting optical Mie scattering
+OpBoundary is created using RAT patched G4OpBoundaryProcess
+Cerenkov::Cerenkov constructor
+NOTE: this is now a G4VProcess!
+Required change in UserPhysicsList: 
+change: pmanager->AddContinuousProcess(theCerenkovProcess);
+to:     pmanager->AddProcess(theCerenkovProcess);
+        pmanager->SetProcessOrdering(theCerenkovProcess,idxPostStep);
+G4Cerenkov: Cerenkov is created
+Warning : Region <hqePMT_DiscOpticalRegion> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <innerPMT_DiscOpticalRegion> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <neckPMT_PMTOpticalRegion> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <outerPMT_PMTOpticalRegion> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+[33mProcBlockManager::SelectProcessor: Initializing processor [mfrontend
+[33mProcBlockManager::SelectProcessor: Initializing processor [mtrigger
+[33mProcBlockManager::SelectProcessor: Initializing processor [meventbuilder
+[33mProcBlockManager::SelectProcessor: Initializing processor [mcount
+[33mProcBlockManager::SelectProcessor: Initializing processor [mcalibratePMT
+[33mProcBlockManager::SelectProcessor: Initializing processor [moutroot
+GsimMessenger::SetNewValue: Command '/rat/run/start' invoked.
+GsimMessenger::SetNewValue: Full command '/rat/run/start 100 ***NULL*** -1' invoked.
+GsimMessenger::SetNewValue Calling beam On with parameters:
+         n_events : 100
+            macro : ***NULL***
+         n_select : -1
+
+GammaToMuPair:  gamma->mu+mu- Bethe Heitler process, SubType= 15
+        good cross section parametrization from 422.633 MeV to 1e+12 GeV for all Z.
+
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld
+
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld
+
+Neutron HP Thermal Scattering Data: Following material-element pairs and/or elements are registered.
+Element TS_H_of_Water,  internal thermal scattering id 0
+
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Inelastic file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Inelastic file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Inelastic file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Inelastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/8_17_Oxygen
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Inelastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Inelastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Inelastic/CrossSection/8_17_Oxygen
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+
+---------------------------------------------------
+                           Hadronic Processes for e+
+
+  Process: positronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for e-
+
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for gamma
+
+  Process: photonNuclear
+        Model:            BertiniCascade: 0 eV  ---> 25 GeV
+     Cr_sctns:            PhotoNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for neutron
+
+  Process: hadElastic
+        Model: NeutronHPThermalScattering: 0 eV  ---> 4 eV 
+        Model:          NeutronHPElastic: 4 eV  ---> 20 MeV
+        Model:              hElasticLHEP: 19 MeV ---> 100 TeV
+     Cr_sctns:        NeutronHPElasticXS: 0 eV  ---> 20 MeV
+     Cr_sctns: NeutronHPThermalScatteringData: 0 eV  ---> 4 eV 
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: neutronInelastic
+        Model:        NeutronHPInelastic: 0 eV  ---> 20 MeV
+        Model:            BertiniCascade: 19 MeV ---> 25 GeV
+     Cr_sctns:      NeutronHPInelasticXS: 0 eV  ---> 20 MeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: nCapture
+        Model:          NeutronHPCapture: 0 eV  ---> 20 MeV
+        Model:               nRadCapture: 19 MeV ---> 100 TeV
+     Cr_sctns:        NeutronHPCaptureXS: 0 eV  ---> 20 MeV
+     Cr_sctns:          GheishaCaptureXS: 0 eV  ---> 100 TeV
+
+  Process: nFission
+        Model:          NeutronHPFission: 0 eV  ---> 20 MeV
+        Model:                G4LFission: 19 MeV ---> 2.88022e+295 J  
+     Cr_sctns:        NeutronHPFissionXS: 0 eV  ---> 20 MeV
+     Cr_sctns:          GheishaFissionXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for proton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: protonInelastic
+        Model:            BertiniCascade: 0 eV  ---> 25 GeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+================================================================
+Producer::InitialiseRun: Initialising a new run, id: 0
+[37;1mGeoutil::UpdateAVOffsetFromDB : AV_OFFSET_RUNTIME[].position field does not exist[m
+[37;1mGeoutil::UpdateAVOffsetFromDB : AV offset set from GEO[av] as 184.4[m
+[32;1mRAT::GeoUtil::CheckPartialSplitAndUpdate : Nothing partial split update needed.[m
+ChanHWStatus::BeginOfRun: Loaded DQXX information for 9728 channels.
+[37;1mGeoutil::UpdateAVOffsetFromDB : AV_OFFSET_RUNTIME[].position field does not exist[m
+[37;1mGeoutil::UpdateAVOffsetFromDB : AV offset set from GEO[av] as 184.4[m
+Point3D::BeginOfRun: new coordinate system av (id 1, z offset = 184.4)
+Point3D::BeginOfRun: new coordinate system innerPMT (id 0, z offset = 0)
+LightPathCalculator::BeginOfRun: Homogeneous detector medium (not partial fill) assumed.
+GroupVelocity::LoadGroupVelocity: No explicit group velocities available for entry: OPTICS[labppo_2p2_bismsb_2p2_scintillator] - calculating using old method 
+GroupVelocity::LoadGroupVelocity: Explicit group velocities found for entry: OPTICS[acrylic_snoplus] - these will be used 
+GroupVelocity::LoadGroupVelocity: Explicit group velocities found for entry: OPTICS[externalwater_snoplus] - these will be used 
+ShadowingCalculator: Loaded AV hold-down rope shadowing information.
+ShadowingCalculator: Loaded AV support rope shadowing information.
+ShadowingCalculator: Loaded belly plate shadowing information.
+ShadowingCalculator: Loaded NCD anchor shadowing information.
+ShadowingCalculator: Loaded AV pipe shadowing information.
+ShadowingCalculator: Loaded neck boss shadowing information.
+
+
+[33;1mReconCorrector should only be applied on energies reconstructed 
+with RAT releases 6.5.X (version = 1) or 6.17.4-6.18.0 (version = 2).
+This correction is not valid for other RAT releases.
+
+[m
+
+
+[33;1mReconCalibrator should only be applied to specific RAT releases
+See ReconCalibrator.hh for more details.
+
+[m
+TimeResidualCalculator::BeginOfRun: Homogeneous detector medium (not partial fill) assumed.
+ChannelEfficiency::BeginOfRun: Average channel efficiency across normal tubes is 0.75058
+ChannelEfficiency::BeginOfRun: Average channel efficiency across normal + OWLs is 0.75058
+ChannelEfficiency::BeginOfRun: Average channel efficiency across normal tubes is 0.75058
+ChannelEfficiency::BeginOfRun: Average channel efficiency across normal + OWLs is 0.75058
+Gsim::BeginOfRunAction : Initializing the generators.
+Gsim::BeginOfRunAction : Generator initialization complete.
+Noise::BeginOfRun PMT noise: average rate
+Noise::BeginOfRun grouping enabled.
+AfterPulsing::BeginOfRun PMT After Pulsing: OFF
+Gsim::BeginOfRunAction: 0 offline tubes
+EventTime: Loading and caching DB constants
+Gsim::BeginOfRunAction: Run 0 begun at  0:35: 0: 0 (hh:mm:ss:cc) on 2014/ 9/19
+FrontEndProc::BeginOfRun: DAQ constants loaded
+  PMT Pulse type: square
+  PMT Pulse Width: .......................  15.0 ns
+  PMT Pulse Offset: ......................   0.0 ADC Counts
+  PMT Pulse Mean: ........................   2.7
+  Min PMT Pulse Height: ..................   0.0 ns
+  PMT Channel Short Integration Time: ....  60.00 ns
+  PMT Channel Long Integration Time: ..... 390.00 ns
+  PMT Channel Total Sample Time: ......... 410.00 ns
+  PMT Channel Stepping Time: .............   0.10 ns
+  PMT Channel Low Gain Attenuation Factor:  16.00
+  Channel Gate Delay: ....................  10.0 ns
+  Hi Freq. Channel Noise: ................   0.61 adc counts
+
+
+TriggerProc::BeginOfRun: DAQ constants loaded
+
+Triggers    Masked In       Enabled:
+  N100LO      No              Yes 
+  N100MED    Yes              Yes 
+  N100HI     Yes              Yes 
+  N20        Yes              Yes 
+  N20LB       No              Yes 
+  ESUMLO     Yes              Yes 
+  ESUMHI      No              Yes 
+  OWLN       Yes               No
+  OWLELO      No               No
+  OWLEHI     Yes               No
+  PULGT      Yes              Yes 
+  Prescale   Yes              Yes 
+  Pedestal    No               No
+  PONG       Yes               No
+  SYNC       Yes               No
+  EXT_ASYNC   No               No
+  SoftGT      No               No
+
+Analog Trigger Thresholds:
+N100LO:..........  10.0 Hits
+N100MED:.........  30.0 Hits
+N100HI:..........  50.0 Hits
+N20:.............  16.0 Hits
+N20LB:...........  11.0 Hits
+ESUMLO:..........  60.0 mV
+ESUMHI:.......... 120.0 mV
+
+
+Digital Trigger Settings:
+Prescale:..........   1000 
+Pulse GT:..........  100.0 Hz
+
+
+ (ECACal::BeginOfRun) Using pattern_rate 5_10 for PDST 
+ (ECACal::BeginOfRun) Using pattern_rate 5_200 for TSLP 
+EventBuilderProc: Trigger constants loaded
+ Trigger Delay: 110.00 + 110.00 = 220.00 ns 
+ Using realistic GTValid?  1 
+ (ECACal::BeginOfRun) Using pattern_rate 5_10 for PDST 
+ (ECACal::BeginOfRun) Using pattern_rate 5_200 for TSLP 
+ PCACal::BeginOfRun: Analyzing MC. PCA calibration won't be applied. 
+OutROOTProc: Writing to protondEdx.root
+CountProc::DSEvent: Event 10 (10 triggered events)
+CountProc::DSEvent: Event 20 (20 triggered events)
+CountProc::DSEvent: Event 30 (30 triggered events)
+CountProc::DSEvent: Event 40 (40 triggered events)
+CountProc::DSEvent: Event 50 (50 triggered events)
+CountProc::DSEvent: Event 60 (60 triggered events)
+CountProc::DSEvent: Event 70 (70 triggered events)
+CountProc::DSEvent: Event 80 (80 triggered events)
+CountProc::DSEvent: Event 90 (90 triggered events)
+CountProc::DSEvent: Event 100 (100 triggered events)
+
+Run time:     68.57 sec
+CPU usage: user    66.72 sec	sys   2.07 sec
+
+ProcBlock::~ProcBlock Processor usage statistics
+--------------------------------------
+            FrontEnd: BeginOfRun:       1 call, 0.00038s/call, <0.1s total.
+             Trigger: BeginOfRun:       1 call, 0.00195s/call, <0.1s total.
+        EventBuilder: BeginOfRun:       1 call, 3.97515s/call,  4.0s total.
+           CountProc: BeginOfRun:       1 call, < 1e-5 s/call, <0.1s total.
+        calibratePMT: BeginOfRun:       1 call, 0.16228s/call,  0.2s total.
+         OutROOTProc: BeginOfRun:       1 call, 0.11284s/call,  0.1s total.
+            FrontEnd:    DSEvent:     100 calls, 0.00048s/call, <0.1s total.
+             Trigger:    DSEvent:     100 calls, 0.01824s/call,  1.8s total.
+        EventBuilder:    DSEvent:     100 calls, 0.00044s/call, <0.1s total.
+           CountProc:    DSEvent:     100 calls, 0.00001s/call, <0.1s total.
+        calibratePMT:    DSEvent:     100 calls, 0.00121s/call,  0.1s total.
+         OutROOTProc:    DSEvent:     100 calls, 0.00150s/call,  0.2s total.
+            FrontEnd:   EndOfRun:       1 call, < 1e-5 s/call, <0.1s total.
+             Trigger:   EndOfRun:       1 call, < 1e-5 s/call, <0.1s total.
+        EventBuilder:   EndOfRun:       1 call, < 1e-5 s/call, <0.1s total.
+           CountProc:   EndOfRun:       1 call, < 1e-5 s/call, <0.1s total.
+        calibratePMT:   EndOfRun:       1 call, < 1e-5 s/call, <0.1s total.
+         OutROOTProc:   EndOfRun:       1 call, 0.00042s/call, <0.1s total.
+Gsim::~Gsim Event simulation statistics
+--------------------------------------
+                Gsim: Generation:     100 calls, < 1e-5 s/call, <0.1s total.
+                Gsim: Simulation:     100 calls, 0.21269s/call, 21.3s total.
+                Gsim:   EV Build:     100 calls, 0.02338s/call,  2.3s total.
+                Gsim:  EV Output:     100 calls, 0.00147s/call,  0.1s total.
+                Gsim:        Run:       1 call, 28.94293s/call, 28.9s total.
+GLG4PrimaryGeneratorAction::~GLG4PrimaryGeneratorAction: Deleting generators.
