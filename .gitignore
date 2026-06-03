@@ -1,0 +1,9 @@
+# Ignore the Push and Pull of the following format files
+*.png
+*.npy
+*.root
+*.csv
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+venv/
+.env
