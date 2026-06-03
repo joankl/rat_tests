@@ -90,7 +90,7 @@ def analyze_dedx_pure(fin_dir, fout_plot_dir, fout_np_dir):
 	bin_centers = []
 	bin_means = []
 
-	for i in range(len(energy_bins) - 1):
+	for i in range(len(energy_bin_edges) - 1):
 		low, high = energy_bin_edges[i], energy_bin_edges[i+1]
 
 		# Only pick energies between the bin edges
