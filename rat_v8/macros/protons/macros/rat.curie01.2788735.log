@@ -1,0 +1,320 @@
+[31mThis is SNO+ RAT 8.1.0 (ff691a585d80e2301909d257dc8f9d12ab03e5a7)[m
+Hostname detected: curie01.a.incd.pt
+Hardware detected: x86_64
+Status messages enabled: info detail 
+Hostname: curie01.a.incd.pt PID: 2788735
+[34;1mSeeding random number generator: [m-413012929
+DB::Constructor:: Setting PgSQL server to default...[m
+[34;1mLoading default database tables...[m
+DB::LoadAll: Loading /rat/data/AFTERPULSING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/AMELLIE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/AV_PIPES.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/AV_TILES.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/BADC.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/BLINDNESS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/BUCKET.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/Burst.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CAL_SOURCE_RUN_LEVEL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CGTSync24.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CGTSync24PreviousRuns.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CHERENKOV_SAMPLING_COEFFICIENTS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CHERENKOV_SAMPLING_PDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CHERENKOV_SOURCE_PDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CHROMA.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_0NUEXT_COSTHETA.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_0NUEXT_COSTHETA_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHAN_IBD_FISHER.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHA_BETA_LIKELIHOOD.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHA_BETA_LIKELIHOOD_Te_Diol_DDA.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHA_SEEDED.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ALPHA_UNSEEDED.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BERKELEY_AB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BERKELEY_FB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BIPO_CUMULTIMERESID_Te_Diol.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BIPO_CUMULTIMERESID_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BIPO_LIKELIHOODDIFF_Te_Diol.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_BIPO_LIKELIHOODDIFF_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_HIGHNECK.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_IBD.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_ITR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_NAIVE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_NAIVE_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_OFFSET10.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_OFFSET10_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_MULTISITE_TIMERESID_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_NEAR_AV_ANGULAR_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_QPDT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_SKYSHINE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_TIMECENTROID.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLASSIFIER_XSite.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CLOCK_RECONSTRUCTION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CMOSSync16.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CMOSSync16PreviousRuns.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONCENTRATOR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_OPTICAL_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_PROMPT_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_REFL_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_REFL_PARAMETERS_2.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CONC_REFL_PARAMETERS_3.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CRATE_GAIN_MONITOR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CSS_CUTS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CSS_CUT_VALUES.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CSS_RESULT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/CSS_SELECTION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DAQ.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DAQ_RUN_LEVEL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DATACLEANING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DETECTOR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DINUCLEON_DECAY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DQCHECKS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DQLL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DROPOUT_EVALUATOR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/Decay0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/Decay0Backg.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/DoubleBeta.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ECA_generation.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ECApattern.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/EFFECTIVE_VELOCITY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/EFFECTIVE_VELOCITY_TeDiol_bismsb_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/EFFECTIVE_VELOCITY_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ELEMENTS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ELLIE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ESCOMBO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ESCrossSection.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D_MultiPDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D_Partial_MultiPDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D_Te_Diol_bisMSB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ET1D_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FECDTAG.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_DIR.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_DIRECTION_2DPDF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_DRIVE_CORRECTION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_FUNCTIONAL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_FUNCTIONAL_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_LOOKUP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_LOOKUP_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_PARTIAL_RHOZ.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_PROMPT_HITS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_PROMPT_LOOKUP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_RSP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_RTHETA_FUNCTIONAL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_ENERGY_RTHETA_FUNCTIONAL_Te_Diol_bisMSB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_FAST_Z.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_MULTIPATH.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_MULTIPATH_ANGLE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_NEAR_AV_ANGULAR_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_PARTIAL_ENERGY_SCALING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_PEnergy.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_POISSION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_POSITION_ANN.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_POSITION_ANN_Te_Diol_DDA_bisMSB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_POSITION_ANN_Te_Diol_bisMSB.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_QUAD.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_SIMPLE_ENERGY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FIT_mCP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/FLUX.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/Flasher.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GEO_LOCATIONS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GREY_DISC_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GREY_DISC_PARAMETERS_BLACK.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GREY_DISC_PARAMETERS_V2.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/GV1D.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/HITCLEANING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/IBD.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/IO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/InputSpectrum.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/LASERBALL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/LEDGeneric.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MATERIALS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MATERIALS_TeDiol_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MATERIALS_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MC.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MISSED_COUNT_BURST.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MUON.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MUON_FIT_WATER.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/MissedCounts.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NATIVE_GEO_DIMENSIONS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NHITS_CUT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NOISE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NOISE_RUN_INTEGRATED.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NOISE_RUN_LEVEL.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NTUPLE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/NUCLEON_DECAY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_TeDiol_0p5_bismsb_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_TeDiol_0p5_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_TeDiol_1p5_labppo_6p0_bismsb_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_TeDiol_2p5_labppo_6p0_bismsb_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_lab.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_0p25_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_0p5.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_0p5_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_1p0_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_1p1.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_2p0_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_2p2.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_2p2_bismsb.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_2p2_bismsb_2p2.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_6p0_oxford.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_bismsb.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OPTICS_labppo_dda.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/OSCILLATIONS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PANELINFO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PCAGF_0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PCATW_0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PCA_GENERATION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PDST_0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMTBASE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMTCalibration.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMTTRANSIT.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMT_DQXX.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMT_OPTICAL_PARAMETERS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PMT_VARIATION.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/POINT3D_SHIFTS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/POSITRONIUM.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PROBABILITY_PE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/PingCrates.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/QPartialEnergy.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/QUENCHING.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/RADIAL_PDFS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/REACTORS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/REACTORS_STATUS.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/RISETIME.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/RUN.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ReconCalibratorRSP.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ReconCalibratorRTF.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/ReconCorrector.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SELECTOR_ISOTROPY.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SINGLEPMTINFO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SMELLIE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SOLAR_MC.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SOLID.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SURFACES.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/SolarSpectra.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/TELLIE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/TSLP_0.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/TriggerEfficiency.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/UFO.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/WAVEGUIDE.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/nSPECTRUM.ratdb ... Success!
+DB::LoadAll: Loading /rat/data/pes_spectrum.ratdb ... Success!
+DB::LoadAll: Loaded 197 tables
+[34;1mInitializing Processor block...[m
+[34;1mInitializing run manager...[m
+
+*************************************************************
+ Geant4 version Name: geant4-10-00-patch-04    (6-March-2015)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+Appending RAT extra units to the units table...
+Initializing Gsim...
+[37;1mGeoutil::UpdateAVOffsetFromDB : AV_OFFSET_RUNTIME[].position field does not exist[m
+[33;1mGeoutil::UpdateAVOffsetFromDB : Neither AV_OFFSET_RUNTIME nor GEO[av] position - default to 0 (no shift)[m
+[32;1mRAT::GeoUtil::CheckPartialSplitAndUpdate : Nothing partial split update needed.[m
+ESCrossSec: Table ESXS[pnue_tot_nuebar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_dif_nuebar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_tot_nuebar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_dif_nuebar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_tot_numubar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_dif_numubar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_tot_numubar] does not exist or is incomplete. Defaulting to analytic calculation
+ESCrossSec: Table ESXS[pnue_dif_numubar] does not exist or is incomplete. Defaulting to analytic calculation
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Initializing the visualization manager
+[34;1mInitializing event producers...[m
+[34;1mInitializing user interface...[m
+[34;1mRunning macro...[m
+DB: Setting DETECTOR[] geo_file to "geo\/snoplusnative.geo"
+
+DB: Setting GEO[inner_av] material to "labppo_2p2_bismsb_2p2_scintillator"
+
+Detector::Construct: Constructing detector materials.
+Detector::Construct: Loading detector geometry from geo/snoplusnative.geo
+Detector::Construct: Loading pmt info from pmt/PMTINFO_sept2018.ratdb
+Detector::Construct: Constructing geometry.
+DiscOpticalModel: Using new grey disc reflections (version 2)
+DiscOpticalModel: Using new grey disc reflections (version 2)
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/11_22_Sodium
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+NeutronHP: /Elastic file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/6_nat_Carbon
+NeutronHP: /Elastic file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Elastic/CrossSection/8_17_Oxygen
+
+Neutron HP Thermal Scattering Data: Following material-element pairs and/or elements are registered.
+Element TS_H_of_Water,  internal thermal scattering id 0
+
+
+Neutron HP Thermal Scattering: Following material-element pairs or elements are registered.
+Element TS_H_of_Water,  internal thermal scattering id 0
+
+
+Neutron HP Thermal Scattering Data: Following material-element pairs and/or elements are registered.
+Element TS_H_of_Water,  internal thermal scattering id 0
+
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 10, A = 20 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 10, A = 21 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 10, A = 22 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/11_22_Sodium
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/8_17_Oxygen
+NeutronHP: /Capture file for Z = 6, A = 12 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 6, A = 13 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/6_nat_Carbon
+NeutronHP: /Capture file for Z = 8, A = 18 is not found and NeutronHP will use /usr/local/share/Geant4-10.0.4/data/G4NDL4.4/Capture/CrossSection/8_17_Oxygen
+GLG4Scint: No reemission spectrum for lab_scintillator for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_2p2_bismsb_2p2_scintillator for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_2p2_bismsb_scintillator for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_6p0_TeDiol_1p5_bismsb_dda_scintillator_directors_review for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_6p0_TeDiol_2p5_bismsb_dda_scintillator_directors_review for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for labppo_bismsb_scintillator for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for te_diol_dda_0p5_labppo_scintillator_Jan2018 for default scint process, setting equal to primary scintillation spectrum
+GLG4Scint: No reemission spectrum for te_diol_dda_0p5_labppo_scintillator_bisMSB_Jan2018 for default scint process, setting equal to primary scintillation spectrum
+PhysicsList::AddAttenuationAndCerenkov Omitting optical Mie scattering
+OpBoundary is created using RAT patched G4OpBoundaryProcess
+Cerenkov::Cerenkov constructor
+NOTE: this is now a G4VProcess!
+Required change in UserPhysicsList: 
+change: pmanager->AddContinuousProcess(theCerenkovProcess);
+to:     pmanager->AddProcess(theCerenkovProcess);
+        pmanager->SetProcessOrdering(theCerenkovProcess,idxPostStep);
+G4Cerenkov: Cerenkov is created
+Warning : Region <hqePMT_DiscOpticalRegion> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <innerPMT_DiscOpticalRegion> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <neckPMT_PMTOpticalRegion> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <outerPMT_PMTOpticalRegion> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+[33mProcBlockManager::SelectProcessor: Initializing processor [mfrontend
+[33mProcBlockManager::SelectProcessor: Initializing processor [mtrigger
+[33mProcBlockManager::SelectProcessor: Initializing processor [meventbuilder
+[33mProcBlockManager::SelectProcessor: Initializing processor [mcount
+[33mProcBlockManager::SelectProcessor: Initializing processor [mcalibratePMT
+[33mProcBlockManager::SelectProcessor: Initializing processor [moutroot
+[33mProcBlockManager::SelectProcessor: Initializing processor [mprune
+ProcBlockManager::DoProcSetCmd: Parameter unknown: file

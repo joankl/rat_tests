@@ -1,0 +1,45 @@
+#
+# Date: 2014-07-21
+# Contact: P G Jones, <p.g.jones@qmul.ac.uk>
+# Revisions:
+#       2014-07-21 : P Jones, moved to rat-tools validation.
+#
+# This macro simulates high energy proton particles for tracking down to rest
+# the dE/dx is then extracted from the result.
+
+# ACTUALLY EDITED BY ME: JOAN
+
+/rat/tracking/omit opticalphoton
+/rat/tracking/store full
+
+/rat/db/set DETECTOR geo_file "geo/snoplusnative.geo"
+/rat/db/set GEO[inner_av] material "labppo_2p2_bismsb_2p2_scintillator"
+
+/process/eLoss/fluct false
+
+/rat/physics_list/OmitMuonicProcesses true
+
+
+/run/initialize
+
+# BEGIN EVENT LOOP
+
+/rat/proc frontend
+/rat/proc trigger
+/rat/proc eventbuilder
+/rat/proc count
+/rat/procset update 10
+/rat/proc calibratePMT
+/rat/proc outroot
+#/rat/proc prune
+/rat/procset file "protondEdx.root"
+
+# END EVENT LOOP
+
+
+/generator/add combo gun:point
+/generator/vtx/set proton 0 0 0 1.0
+/generator/pos/set 0 0 0
+/generator/rate/set 1
+
+/rat/run/start 100

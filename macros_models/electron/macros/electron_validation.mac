@@ -1,0 +1,39 @@
+# =========================================================================
+# Validation macro for electron generates at the center of the AV
+# Objetive: Evaluate the dE/dx, tracking profile and Light Yield in LAB-PPO
+# Autor: Joan Kladnik
+# Created on: 03/06/2026
+# =========================================================================
+
+# --- Tracking Config. and Physics ---
+/rat/tracking/store full
+#/rat/tracking/omit opticalphoton
+
+# Disable fluctuations if looking for Bethe-Bloch clean curves.
+/process/eLoss/fluct true
+/rat/physics_list/OmitMuonicProcesses true
+
+# --- Detector Geometry ---
+/rat/db/set DETECTOR geo_file "geo/snoplusnative.geo"
+/rat/db/set GEO[inner_av] material "labppo_2p2_bismsb_2p2_scintillator"
+
+/run/initialize
+
+# --- EVENT LOOP ---
+/rat/proc frontend
+/rat/proc trigger
+/rat/proc eventbuilder
+/rat/proc count
+/rat/procset update 10
+/rat/proc calibratePMT
+/rat/proc outroot
+/rat/procset file "electron_validation_5MeV.root"
+
+# --- GENERATOR ---
+/generator/add combo gun:point
+/generator/vtx/set e- 0 0 0 5.0
+/generator/pos/set 0 0 0
+/generator/rate/set 1
+
+# Number of events generated
+/rat/run/start 100
