@@ -41,12 +41,12 @@ def dE_dx_plot(fin, fout):
 	plt.scatter(bin_centers, bin_means, color='orangered', s=12, zorder=3)
 
 	plt.xscale('log')
-	#plt.yscale('log')
+	plt.yscale('log')
 
 	plt.xlabel('Initial KE of Step (MeV)', fontsize=12)
 	plt.ylabel('$dE/dx$ (MeV/mm)', fontsize=12)
 
-	plt.title('$dE/dx$ for 5 MeV MC electrons on BisMSB', fontsize=13, fontweight='bold')
+	plt.title('$dE/dx$ for Center AV & 5 MeV electrons on BisMSB - MC Data', fontsize=13)
 	plt.legend(loc='best')
 	plt.grid(True, which="both", ls="--", alpha=0.4)
 
