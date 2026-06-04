@@ -27,11 +27,36 @@ def dE_dx_plot(fin, fout):
 
 	energies = arr['energies']
 	dedx_values = arr['dedx_values']
-	bin_centers = arr['bin_centers']
-	bin_means = arr['bin_means']
-	energy_bin_edges = arr['energy_bins']
+	#bin_centers = arr['bin_centers']
+	#bin_means = arr['bin_means']
+	#energy_bin_edges = arr['energy_bins']
 
 	# ===== Plots Construction =====
+
+	# Bins definitions to plot <dE/dx> profile
+
+	energy_i = 0.05
+	energy_f = 5.5
+	n_bins = 30
+	energy_bin_edges = np.linspace(energy_i, energy_f, n_bins + 1)
+
+	bin_centers = []
+	bin_means = []
+
+	for i in range(len(energy_bin_edges) - 1):
+		low, high = energy_bin_edges[i], energy_bin_edges[i+1]
+
+		# Only pick energies between the bin edges
+		mask = (energies >= low) & (energies < high) 
+
+		if np.any(mask):
+			# compute the mean value of dE/dx within this bin
+			bin_means.append(np.mean(dedx_values[mask]))
+		else:
+			bin_means.append(0.0)
+		bin_centers.append((low + high) / 2.0)
+
+
 	plt.figure(figsize=(9, 6))
 	# Plots of dot points (Straggling)
 	plt.scatter(energies, dedx_values, alpha=0.08, color='darkblue', s=1.5, label='Individual Steps')
