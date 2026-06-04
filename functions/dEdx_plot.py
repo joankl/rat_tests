@@ -26,7 +26,7 @@ def dE_dx_plot(fin, fout):
 	arr = np.load(fin)
 
 	energy = arr['energies']
-	dEdx = arr['dedx_values']
+	dedx_values = arr['dedx_values']
 	bin_centers = arr['bin_centers']
 	bin_means = arr['bin_means']
 	energy_bin_edges = arr['energy_bins']
