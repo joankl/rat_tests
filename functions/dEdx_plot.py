@@ -64,7 +64,7 @@ def dE_dx_plot(fin, fout):
 
 	# histogram of the mean dE/dx within each energy bin
 	plt.step(energy_bin_edges[:-1], bin_means, where='post', color='orangered', lw=2, label='Mean Profile ($dE/dx$)')
-	plt.scatter(bin_centers, bin_means, color='orangered', s=12, zorder=3)
+	#plt.scatter(bin_centers, bin_means, color='orangered', s=12, zorder=3)
 
 	plt.xscale('log')
 	plt.yscale('log')
