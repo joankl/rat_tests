@@ -1,8 +1,9 @@
 '''
 Function to construct the plot of dE/dx for a given particles as
 a function of its kinetic energy at each step.
-It must receive previous saved numpy data of the dE/dx and will 
-return the plots
+It must receive previous saved numpy data of the dE/dx and KE at
+each step. Then, it will return the plots of the dots dE/dx(KE)
+and the mean profile of <dE/dx> for a defined bin interval of KE.
 
 created on: 04/06/2026
 '''
