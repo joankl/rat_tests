@@ -60,4 +60,4 @@ if __name__ == "__main__":
 	fout = '/lstore/sno/joankl/rat_tests/rat_v8/electron/results/figures/'
 	fig_name = 'electron_5MeV_dedx_replot.png'
 
-	dE_dx_plot(fin + fig_name, fout + fig_name)
+	dE_dx_plot(fin, fout + fig_name)
