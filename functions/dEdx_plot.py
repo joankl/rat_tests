@@ -7,7 +7,7 @@ return the plots
 created on: 04/06/2026
 '''
 
-import numpy as numpy
+import numpy as np
 import matplotlib.pyplot as plt
 
 def dE_dx_plot(fin, fout):
