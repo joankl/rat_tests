@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
     fin_dir = '/lstore/sno/joankl/rat_tests/rat_v8/neutrons/macros/neutron_validation_3MeV.root'
     fout_dir = '/lstore/sno/joankl/rat_tests/rat_v8/neutrons/results/'
-    fout_name = 'neutron_data.npz'
+    fout_name = 'neutron_data_3MeV.npz'
 
     fout_np_dir = fout_dir + fout_name
     
