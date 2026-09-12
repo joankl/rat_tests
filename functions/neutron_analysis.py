@@ -10,6 +10,7 @@ Creation Date: 12/09/2026
 #!/usr/bin/env python3
 import numpy as np
 import ROOT
+import rat
 
 def analyze_neutrons(fin_dir, fout_np_dir):
     
