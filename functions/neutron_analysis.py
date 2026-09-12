@@ -42,17 +42,19 @@ def analyze_neutrons(fin_dir, fout_np_dir):
                 if step_count > 0:
                     # step where neutron was generated
                     first_step = r_mc_track.GetMCTrackStep(0)
-                    pos_initial = first_step.GetEndpoint()
+                    pos_initial = first_step.GetPosition()
                     
                     # step where neutron was captured
                     last_step = r_mc_track.GetMCTrackStep(step_count - 1)
-                    pos_final = last_step.GetEndpoint()
+                    pos_final = last_step.GetPosition()
                     
                     # Propagation distance
-                    dx = pos_final.x() - pos_initial.x()
-                    dy = pos_final.y() - pos_initial.y()
-                    dz = pos_final.z() - pos_initial.z()
-                    distance = np.sqrt(dx**2 + dy**2 + dz**2)
+                    distance = (pos_final - pos_initial).Mag()
+
+                    #dx = pos_final.x() - pos_initial.x()
+                    #dy = pos_final.y() - pos_initial.y()
+                    #dz = pos_final.z() - pos_initial.z()
+                    #distance = np.sqrt(dx**2 + dy**2 + dz**2)
                     
                     penetration_distances.append(distance)
                 
