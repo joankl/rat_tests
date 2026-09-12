@@ -36,4 +36,4 @@
 /generator/rate/set 1
 
 # Number of events generated
-/rat/run/start 100
+/rat/run/start 1000
