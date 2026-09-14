@@ -1,5 +1,0 @@
-[91mERROR  : Failed to create user namespace: user namespace disabled
-[0m  File "neutron_analysis.py", line 20
-    print(f"Processing {total_entries} neutron events...")
-                                                        ^
-SyntaxError: invalid syntax

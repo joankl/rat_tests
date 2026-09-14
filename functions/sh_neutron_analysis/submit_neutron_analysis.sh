@@ -1,16 +1,31 @@
 #!/bin/bash
-#SBATCH --job-name=rat_neutron_analysis      # Nombre del trabajo
-#SBATCH --output=logs/analysis_%j.out  # Archivo de salida estándar (%j = Job ID)
-#SBATCH --error=logs/analysis_%j.err   # Archivo de errores
-#SBATCH --time=02:00:00                # Tiempo máximo de ejecución (HH:MM:SS)
+#SBATCH --job-name=rat_neutron_analysis
+#SBATCH --output=logs/analysis.out
+#SBATCH --error=logs/analysis.err
+#SBATCH --partition=lipq
 
-# 1. Cargar el entorno de RAT/ROOT
-source /lstore/sno/joankl/RAT/rat_8.1.0_appt.sh 
+echo "Running on host: $(hostname)"
+echo "Starting Container..."
 
-# 2. Ir al directorio donde está tu script (opcional pero recomendado)
-cd /lstore/sno/joankl/rat_tests/functions/
+# --- Configuración de Rutas ---
+SCRIPT_DIR="/lstore/sno/joankl/rat_tests/functions"
+CONTAINER_SIF="/lstore/sno/joankl/RAT/containers/rat_8.1.0.sif"
 
-# 3. Ejecutar el script de análisis
-echo "Iniciando análisis de neutrones..."
-python neutron_analysis.py
-echo "Análisis finalizado con éxito."
+# --- Comando interno del contenedor ---
+# Inicializamos la cadena de entornos de SNO+ y ejecutamos el análisis
+COMMAND_INSIDE="source /usr/local/bin/geant4.sh && \
+                source /root-bin/bin/thisroot.sh && \
+                source /rat/env.sh && \
+                cd ${SCRIPT_DIR} && \
+                python3 neutron_analysis.py"
+
+# --- Ejecución de Apptainer ---
+# Usamos exactamente la misma sintaxis de montajes (-B) que funciona en tu submit_job.py
+apptainer exec \
+    -B /share/neutrino/snoplus/ \
+    -B /lstore \
+    -B ${SCRIPT_DIR} \
+    ${CONTAINER_SIF} \
+    bash -c "${COMMAND_INSIDE}"
+
+echo "Job finished"
