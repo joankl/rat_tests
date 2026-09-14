@@ -3,8 +3,11 @@ Script to read RAT neutron simulations and extract observables of interest.
 The observables are:
 1. Traveling distance of the neutron.
 2. Energy spectrum of produced gammas
+3. neutron capture time
 
 Creation Date: 12/09/2026
+
+Edits:
 '''
 
 #!/usr/bin/env python3
@@ -21,6 +24,7 @@ def analyze_neutrons(fin_dir, fout_np_dir):
 
     penetration_distances = []
     capture_gamma_energies = []
+    capture_times = []
 
     # Loop on events
     for i_entry in range(total_entries):
@@ -43,20 +47,21 @@ def analyze_neutrons(fin_dir, fout_np_dir):
                     # step where neutron was generated
                     first_step = r_mc_track.GetMCTrackStep(0)
                     pos_initial = first_step.GetPosition()
+                    time_initial = first_step.GetGlobalTime()
                     
                     # step where neutron was captured
                     last_step = r_mc_track.GetMCTrackStep(step_count - 1)
                     pos_final = last_step.GetPosition()
+                    time_final = last_step.GetGlobalTime()
                     
                     # Propagation distance
                     distance = (pos_final - pos_initial).Mag()
 
-                    #dx = pos_final.x() - pos_initial.x()
-                    #dy = pos_final.y() - pos_initial.y()
-                    #dz = pos_final.z() - pos_initial.z()
-                    #distance = np.sqrt(dx**2 + dy**2 + dz**2)
+                    # Capture Time
+                    capture_time = time_final - time_initial
                     
                     penetration_distances.append(distance)
+                    capture_times.append(capture_time)
                 
                 # get out of the loop once the neutron is found
                 break 
@@ -78,11 +83,13 @@ def analyze_neutrons(fin_dir, fout_np_dir):
     # convert to numpy
     penetration_distances = np.array(penetration_distances)
     capture_gamma_energies = np.array(capture_gamma_energies)
+    capture_times = np.array(capture_times)
 
     # save the data
     np.savez(fout_np_dir, 
              distances=penetration_distances, 
-             gamma_energies=capture_gamma_energies)
+             gamma_energies=capture_gamma_energies,
+             capture_times=capture_times)
     
     print(f"[-] Data saved in NumPy Format in: {fout_np_dir}")
 
