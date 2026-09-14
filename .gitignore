@@ -7,3 +7,7 @@
 */.ipynb_checkpoints/*
 venv/
 .env
+*.err
+*.out
+*.log
+logs/

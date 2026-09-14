@@ -2,6 +2,7 @@
 #SBATCH --job-name=rat_n_analysis      # Nombre del trabajo
 #SBATCH --output=logs/analysis_%j.out  # Archivo de salida estándar (%j = Job ID)
 #SBATCH --error=logs/analysis_%j.err   # Archivo de errores
+#SBATCH --partition=lipq
 #SBATCH --time=02:00:00                # Tiempo máximo de ejecución (HH:MM:SS)
 #SBATCH --mem=4G                       # Memoria RAM solicitada
 #SBATCH --cpus-per-task=1              # Número de núcleos (el script es secuencial)
