@@ -11,3 +11,5 @@ venv/
 *.out
 *.log
 logs/
+*.err
+*.out
