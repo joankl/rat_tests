@@ -10,7 +10,7 @@ Created on 22/09/2026
 import os
 import time
 
-N_JOBS = 10                 # Nº of jobs to send to the Farm
+N_JOBS = 1                 # Nº of jobs to send to the Farm
 EVENTS_PER_JOB = 1000       # Nº of events per job (Total events = N_JOBS * EVENTS_PER_JOB)
 ENERGY = "3MeV"             # Files label (energy of simulation)
 

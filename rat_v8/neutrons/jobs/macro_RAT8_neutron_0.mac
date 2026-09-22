@@ -1,0 +1,39 @@
+# =========================================================================
+# Validation macro for neutrons generated at the center of the AV.
+# Objetive: Evaluate the capture time, propgation lenght, and produced gamma spectrum.
+# Autor: Joan Kladnik
+# Created on: 09/09/2026
+
+# =========================================================================
+
+# Save the tracking info
+/rat/tracking/store full
+
+# Omit the optical photons to save memory. Only activate if interested on the light yield.
+/rat/tracking/omit opticalphoton
+
+/rat/physics_list/OmitMuonicProcesses true
+
+/rat/db/set DETECTOR geo_file "geo/snoplusnative.geo"
+/rat/db/set GEO[inner_av] material "labppo_2p2_bismsb_2p2_scintillator"
+
+/run/initialize
+
+# --- EVENT LOOP ---
+/rat/proc frontend
+/rat/proc trigger
+/rat/proc eventbuilder
+/rat/proc count
+/rat/procset update 10
+/rat/proc calibratePMT
+/rat/proc outroot
+/rat/procset file "/lstore/sno/joankl/rat_tests/rat_v8/neutrons/results/root_files/neutron_3MeV_0.root"
+
+# --- GENERATOR ---
+/generator/add combo gun:point
+/generator/vtx/set neutron 0 0 0 3
+/generator/pos/set 0 0 0
+/generator/rate/set 1
+
+# Number of events generated
+/rat/run/start 1000
