@@ -11,7 +11,7 @@ main_fdir = '/lstore/sno/joankl/rat_tests/rat_v8/neutrons/results/root_files/neu
 flist = glob.glob(main_fdir)
 
 # Main directory where to save the analysis results
-main_save_dir = '/lstore/sno/joankl/rat_tests/rat_v8/neutrons/results/np_files'
+main_save_dir = '/lstore/sno/joankl/rat_tests/rat_v8/neutrons/results/np_files/'
 os.makedirs(main_save_dir, exist_ok=True)
 
 # RAT container directory and libraries
