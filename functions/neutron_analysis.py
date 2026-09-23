@@ -4,10 +4,11 @@ The observables are:
 1. Traveling distance of the neutron.
 2. Energy spectrum of produced gammas
 3. neutron capture time
+4. Number of steps/collisions before capute
+5. Capturinn nucleus PDG code
 
 Creation Date: 12/09/2026
 
-Edits:
 '''
 
 #!/usr/bin/env python3
@@ -25,6 +26,8 @@ def analyze_neutrons(fin_dir, fout_np_dir):
     penetration_distances = []
     capture_gamma_energies = []
     capture_times = []
+    neutron_step_counts = []
+    gamma_capture_nuclei = []
 
     # Loop on events
     for i_entry in range(total_entries):
@@ -62,13 +65,27 @@ def analyze_neutrons(fin_dir, fout_np_dir):
                     
                     penetration_distances.append(distance)
                     capture_times.append(capture_time)
+                    neutron_step_counts.append(step_count)
                 
                 # get out of the loop once the neutron is found
                 break 
 
-        # --- Secondary gammas analysis ---
+        # --- Secondary gammas analysis and nucleus capture analysis---
         # Look for the sons of the neutron if identified correctly.
         if neutron_track_id != -1:
+            capture_pdg = 0
+
+            # 1. Find the heayv nuclei that captured the neutron
+            for track_id in mc_track_ids:
+                r_mc_track = r_mc.GetMCTrack(track_id)
+                # Look for heavy nuclei capture with code PDG > 1000000000
+                if r_mc_track.GetParentID() == neutron_track_id:
+                    pdg = r_mc_track.GetPDGCode()
+                    if pdg > 1000000000:
+                        capture_pdg = pdg
+                        break 
+
+            #2. Find the gammas from the capture
             for track_id in mc_track_ids:
                 r_mc_track = r_mc.GetMCTrack(track_id)
                 
@@ -79,20 +96,27 @@ def analyze_neutrons(fin_dir, fout_np_dir):
                         # Take the initial energy of the produced gammas (step 0)
                         gamma_energy = r_mc_track.GetMCTrackStep(0).GetKineticEnergy()
                         capture_gamma_energies.append(gamma_energy)
+                        gamma_capture_nuclei.append(capture_pdg) # Associated PDG code to the gamma capture
 
-    # convert to numpy
+    # Convert to numpy
     penetration_distances = np.array(penetration_distances)
     capture_gamma_energies = np.array(capture_gamma_energies)
     capture_times = np.array(capture_times)
+    neutron_step_counts = np.array(neutron_step_counts)
+    gamma_capture_nuclei = np.array(gamma_capture_nuclei)
 
-    # save the data
+    # Save the data
     np.savez(fout_np_dir, 
              distances=penetration_distances, 
              gamma_energies=capture_gamma_energies,
-             capture_times=capture_times)
+             capture_times=capture_times,
+             step_counts=neutron_step_counts,
+             capture_nuclei=gamma_capture_nuclei)
     
     print(f"[-] Data saved in NumPy Format in: {fout_np_dir}")
 
+
+'''
 if __name__ == "__main__":
 
     fin_dir = '/lstore/sno/joankl/rat_tests/rat_v8/neutrons/macros/neutron_validation_3MeV.root'
@@ -102,3 +126,4 @@ if __name__ == "__main__":
     fout_np_dir = fout_dir + fout_name
     
     analyze_neutrons(fin_dir, fout_np_dir)
+'''
