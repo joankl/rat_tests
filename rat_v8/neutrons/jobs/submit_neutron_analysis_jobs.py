@@ -24,7 +24,7 @@ os.makedirs(f'logs_{data_type}', exist_ok=True)
 
 if __name__ == '__main__':
 
-	for i_dx, fin_dir_i in enumerate(flist):
+	for i_dx, fin_dir_i in enumerate([flist[0]]):
 
 		# Define the output file name and output directory
 		base_name = os.path.basename(fin_dir_i)
