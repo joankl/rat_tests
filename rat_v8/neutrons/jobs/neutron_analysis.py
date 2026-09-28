@@ -5,7 +5,7 @@ The observables are:
 2. Energy spectrum of produced gammas
 3. neutron capture time
 4. Number of steps/collisions before capute
-5. Capturinn nucleus PDG code
+5. Capturing nucleus PDG code
 
 Creation Date: 12/09/2026
 
