@@ -49,21 +49,21 @@ if __name__ == '__main__':
 
         # Content of script SBATCH
 		script_content = f"""#!/bin/bash
-		#SBATCH --job-name={data_type}_{i_dx}
-		#SBATCH --output=logs_{data_type}/job_{i_dx}.out
-		#SBATCH --error=logs_{data_type}/job_{i_dx}.err
-		#SBATCH --partition=lipq
+#SBATCH --job-name={data_type}_{i_dx}
+#SBATCH --output=logs_{data_type}/job_{i_dx}.out
+#SBATCH --error=logs_{data_type}/job_{i_dx}.err
+#SBATCH --partition=lipq
 
-		echo "Running on host: $(hostname)"
-		echo "Starting Container..."
+echo "Running on host: $(hostname)"
+echo "Starting Container..."
 
-		# Run apptainer
-		# We initialize the directories to be readen: /share (date), /lstore (libs y output), y $PWD (scripts)
-		apptainer exec \\
-		-B /lstore/sno/joankl \\
-		-B {SCRIPT_DIR} \\
-		{CONTAINER_SIF} \\
-		bash -c '{command_inside_container}'
+# Run apptainer
+# We initialize the directories to be readen: /share (date), /lstore (libs y output), y $PWD (scripts)
+apptainer exec \\
+-B /lstore/sno/joankl \\
+-B {SCRIPT_DIR} \\
+{CONTAINER_SIF} \\
+bash -c '{command_inside_container}'
 
 echo "Job finished"
 """
