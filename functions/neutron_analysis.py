@@ -125,7 +125,7 @@ def analyze_neutrons(fin_dir, fout_np_dir):
     print(f"[-] Data saved in NumPy Format in: {fout_np_dir}")
 
 
-'''
+
 if __name__ == "__main__":
 
     fin_dir = '/lstore/sno/joankl/rat_tests/rat_v8/neutrons/macros/neutron_validation_3MeV.root'
@@ -135,4 +135,4 @@ if __name__ == "__main__":
     fout_np_dir = fout_dir + fout_name
     
     analyze_neutrons(fin_dir, fout_np_dir)
-'''
+

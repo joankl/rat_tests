@@ -5,7 +5,7 @@ simulated particle properties, such as dE/dx behavior.
 
 created on: 03/06/2026
 
-Last Edit on: -15/07/2026: add mean profiles of dE/dx
+Last Edit on: 15/07/2026: add mean profiles of dE/dx
 '''
 
 #!/usr/bin/env python3
@@ -174,9 +174,9 @@ def analyze_dedx_pure(fin_dir, fout_plot_dir, fout_np_dir):
 
 if __name__ == "__main__":
 
-	fin_dir = '/lstore/sno/joankl/rat_tests/rat_v8/electron/macros/electron_validation_5MeV.root'
-	fout_plot_dir = '/lstore/sno/joankl/rat_tests/rat_v8/electron/results/figures/'
-	fout_np_dir = '/lstore/sno/joankl/rat_tests/rat_v8/electron/results/np_data/'
+	fin_dir = '/lstore/sno/joankl/rat_tests/rat_v9/electron/macros/electron_validation_5MeV.root'
+	fout_plot_dir = '/lstore/sno/joankl/rat_tests/rat_v9/electron/results/figures/'
+	fout_np_dir = '/lstore/sno/joankl/rat_tests/rat_v9/electron/results/np_data/'
 
 	fig_name = 'electron_5MeV_dedx.png'
 	np_array_name = 'electron_5MeV_data.npz'
