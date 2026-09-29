@@ -11,7 +11,7 @@ Last Edit on: 15/07/2026: add mean profiles of dE/dx
 #!/usr/bin/env python3
 import sys
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 import ROOT
 import rat
@@ -141,35 +141,43 @@ def analyze_dedx_pure(fin_dir, fout_plot_dir, fout_np_dir):
 	print(f"[-] Data saved in NumPy Format in: {fout_np_dir}")
 
 	# ===== Plots Construction =====
-	plt.figure(figsize=(10, 6.5))
-	
-	# Plots of dot points (Straggling)
-	plt.scatter(energies, dedx_values, alpha=0.06, color='darkblue', s=1.0, label='Individual Steps')
 
-	# 1. Graficar el promedio aritmético simple (sesgado)
-	plt.step(bin_centers, bin_means_arithmetic, where='mid', color='orangered', lw=1.5, ls='--', label='Arithmetic Mean')
-	
-	# 2. Graficar el promedio físico real (ponderado por dx)
-	plt.step(bin_centers, bin_means_physical, where='mid', color='forestgreen', lw=2.0, label='Physical Mean ($\Sigma \Delta E / \Sigma \Delta x$)')
-	
-	# 3. Graficar la Mediana / MPV
-	plt.step(bin_centers, bin_medians, where='mid', color='crimson', lw=2.5, label='Median (MPV Approximation)')
-	plt.scatter(bin_centers, bin_medians, color='crimson', s=15, zorder=4)
+	make_plot = False
 
-	plt.xscale('log')
-	plt.yscale('log')
-	plt.xlim(energy_i, energy_f)
+	if make_plot:
 
-	plt.xlabel('Initial KE of Step (MeV)', fontsize=12)
-	plt.ylabel('$dE/dx$ (MeV/mm)', fontsize=12)
+		plt.figure(figsize=(10, 6.5))
+		
+		# Plots of dot points (Straggling)
+		plt.scatter(energies, dedx_values, alpha=0.06, color='darkblue', s=1.0, label='Individual Steps')
 
-	plt.title('$dE/dx$ Profiles for electrons (BisMSB) - Robust Statistics', fontsize=13, fontweight='bold')
-	plt.legend(loc='best', frameon=True, shadow=True)
-	plt.grid(True, which="both", ls="--", alpha=0.4)
+		# 1. Graficar el promedio aritmético simple (sesgado)
+		plt.step(bin_centers, bin_means_arithmetic, where='mid', color='orangered', lw=1.5, ls='--', label='Arithmetic Mean')
+		
+		# 2. Graficar el promedio físico real (ponderado por dx)
+		plt.step(bin_centers, bin_means_physical, where='mid', color='forestgreen', lw=2.0, label='Physical Mean ($\Sigma \Delta E / \Sigma \Delta x$)')
+		
+		# 3. Graficar la Mediana / MPV
+		plt.step(bin_centers, bin_medians, where='mid', color='crimson', lw=2.5, label='Median (MPV Approximation)')
+		plt.scatter(bin_centers, bin_medians, color='crimson', s=15, zorder=4)
 
-	plt.tight_layout()
-	plt.savefig(fout_plot_dir, dpi=300)
-	print(f"[-] Plot generated in: {fout_plot_dir}")
+		plt.xscale('log')
+		plt.yscale('log')
+		plt.xlim(energy_i, energy_f)
+
+		plt.xlabel('Initial KE of Step (MeV)', fontsize=12)
+		plt.ylabel('$dE/dx$ (MeV/mm)', fontsize=12)
+
+		plt.title('$dE/dx$ Profiles for electrons (BisMSB) - Robust Statistics', fontsize=13, fontweight='bold')
+		plt.legend(loc='best', frameon=True, shadow=True)
+		plt.grid(True, which="both", ls="--", alpha=0.4)
+
+		plt.tight_layout()
+		plt.savefig(fout_plot_dir, dpi=300)
+		print(f"[-] Plot generated in: {fout_plot_dir}")
+
+	else:
+		print('Plots are not being generated')
 
 
 if __name__ == "__main__":
