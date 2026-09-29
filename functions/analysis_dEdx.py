@@ -11,7 +11,6 @@ Last Edit on: 15/07/2026: add mean profiles of dE/dx
 #!/usr/bin/env python3
 import sys
 import numpy as np
-#import matplotlib.pyplot as plt
 
 import ROOT
 import rat
@@ -145,6 +144,7 @@ def analyze_dedx_pure(fin_dir, fout_plot_dir, fout_np_dir):
 	make_plot = False
 
 	if make_plot:
+		import matplotlib.pyplot as plt
 
 		plt.figure(figsize=(10, 6.5))
 		
