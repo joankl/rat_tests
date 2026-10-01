@@ -7,7 +7,7 @@
 
 # --- Tracking Config. and Physics ---
 /rat/tracking/store full
-#/rat/tracking/omit opticalphoton
+/rat/tracking/omit opticalphoton
 
 # Disable fluctuations if looking for Bethe-Bloch clean curves.
 /process/eLoss/fluct true
