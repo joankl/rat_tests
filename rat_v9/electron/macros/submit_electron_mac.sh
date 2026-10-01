@@ -1,9 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=RAT9_electron
-#SBATCH --output=electron_%j.out
-#SBATCH --error=electron_%j.err
-#SBATCH --time=12:00:00
-#SBATCH --mem=4G
+#SBATCH --output=electron.out
+#SBATCH --error=electron.err
 #SBATCH --partition=lipq
 
 # Rutas de ejecución
