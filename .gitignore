@@ -1,6 +1,7 @@
 # Ignore the Push and Pull of the following format files
 *.png
 *.npy
+*.npz
 *.root
 *.csv
 .ipynb_checkpoints
