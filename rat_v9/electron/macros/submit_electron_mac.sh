@@ -7,8 +7,8 @@
 #SBATCH --partition=lipq
 
 # Rutas de ejecución
-CONTAINER_SIF="/lstore/sno/joankl/RAT/containers/rat_9test.sif"
-RAT9_DIR="/lstore/sno/joankl/RAT/containers/rat_9test_dir"
+CONTAINER_SIF="/lstore/sno/joankl/RAT/containers/rat9_test.sif"
+RAT9_DIR="/lstore/sno/joankl/RAT/containers/rat9_test_dir"
 MACRO_DIR="/lstore/sno/joankl/rat_tests/rat_v9/electron/macros"
 
 # Comando interno: usamos $(geant4-config --prefix) para encontrar la ruta real dinámicamente
